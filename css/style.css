@@ -1,0 +1,49 @@
+*,
+::after*,
+::before*{
+    margin: 0;
+}
+
+.list{
+    list-style: none;
+}
+.our-team{
+    background-image: url('../img/bg-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.team-name{
+    text-align: center;
+    text-transform: uppercase;
+    color: indigo;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.team-list{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.team-list-item{
+    border: 2px solid silver;
+}
+.team-list-item:not(:first-child){
+    margin-left: 20px;
+}
+.name{
+    font-size: 24px;
+    
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    text-align: center;
+}
+.info{
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 20px;
+    width: 200px;
+    font-size: 20px;
+    color:rgb(1, 70, 245);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
